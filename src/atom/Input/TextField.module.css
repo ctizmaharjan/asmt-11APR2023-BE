@@ -1,0 +1,36 @@
+.root {
+  padding: 0.5rem 0rem;
+}
+.input {
+  height: 2rem;
+  flex: 1;
+  border: none;
+  outline: none;
+  min-width: 3rem;
+  font-size: 1rem;
+  background: unset;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input_box {
+  border: 2px solid #a0a0a0;
+  border-radius: 6px;
+  padding: 0.7rem;
+  min-width: 50vw;
+}
+
+.input_box:has(.input:focus) {
+  border-color: #77adeb;
+  /* border-color: #7386b4; */
+}
+
+.label {
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width: 900px) {
+  .input_box {
+    width: 25.5rem;
+    min-width: unset;
+  }
+}
