@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "UserId": "default_admin",
+      "password": "defaultadmin",
+      "role": "ADMINN"
+    },
+    {
+      "UserId": "user",
+      "password": "user1234",
+      "role": "USER"
+    }
+  ]
+}
